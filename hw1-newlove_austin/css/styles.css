@@ -1,0 +1,99 @@
+@charset "UTF-8";
+
+
+.hidden
+{
+	display: none;
+
+}
+
+#container
+{
+	width: 960px; /*works well at 1024 or above*/
+	margin: 0 auto; /* top and bottom 0 left and right equal*/
+}
+
+body 
+{
+
+	font-family: Helvetica, Arial, sans-serif;
+	font-size: 14px;
+}
+
+#pictureofme
+{
+
+	float: left;
+	
+}
+
+#myInfo
+{
+	width: 650px;
+	/*background-color: #efefef;*/
+	float: right;
+}
+
+#Name
+{
+	width: 650px;
+	height: 45px;
+	font-size: 40px;
+	text-align: center;
+	text-decoration: underline;
+	margin: 0;
+	padding: 0;
+}
+
+#Birthday
+{
+	width: 290px;
+	height: 40px;
+	float: right;
+	text-align: center;
+	font-size: 30px;
+	margin-top: 15px;
+	margin-right: 175px;
+}
+
+#mainContent
+{
+	width: 960px;
+	
+	overflow: hidden;
+
+}
+
+#mainHeader
+{
+
+	overflow: hidden;
+}
+
+#mainBio
+{
+	width: 610px;
+	height: 300px;
+	text-align: center;
+	font-size: 20px;
+	background-color: #2a91bc;
+	float: left;
+
+}
+
+#fieriImage
+{
+	width: 300px;
+	height: 300px;
+	float: right;
+	margin-bottom: 15px;
+	margin-left: 15px;
+}
+
+#drawingExample
+{
+	clear: both;
+	width: 960px;
+	height: 725px;
+
+}
